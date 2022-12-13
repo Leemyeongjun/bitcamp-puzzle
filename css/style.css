@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+ul {
+    width: 400px;
+    height: 400px;
+    margin-top: 10px;
+    list-style: none;
+    border: 2px solid lightgray;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+li {
+    margin: 5px;
+    background: gray;
+    border: 1px solid lightgray;
+    text-align:center;
+    padding: 0px;
+}
+
+.startBtn {
+
+}
+
+.complete-text {
+    position: absolute;
+    font-size: 40px;
+    color: lightgreen;
+    display: none;
+}
