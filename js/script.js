@@ -56,7 +56,6 @@ puzzle.addEventListener("click", (e) => {
 startButton.addEventListener("click", () => {
     let newList = Array.from(puzzleList).sort(() => Math.random() - 0.5);
 
-    // puzzle.innerHTML = "";
     newList.map((li) => puzzle.append(li));
 });
 
@@ -78,4 +77,3 @@ function checkIndex() {
         result.indexOf(false) === -1 && alert("Complete!");
     }, 0);
 }
-
