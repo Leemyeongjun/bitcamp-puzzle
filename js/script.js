@@ -18,6 +18,7 @@ let lll = new Array(cnt).fill().forEach((n, i) => {
     console.log(li);
 });
 
+
 puzzle.addEventListener("click", (e) => {
     let emptyList = document.querySelector(".list15");
 
@@ -72,7 +73,7 @@ function checkIndex() {
             result.push(false);
         }
     });
-
+    
     setTimeout(() => {
         result.indexOf(false) === -1 && alert("Complete!");
     }, 0);
