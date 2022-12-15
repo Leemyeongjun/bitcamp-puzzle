@@ -46,13 +46,6 @@ li {
     font-size: 17px;
 }
 
-.complete-text {
-    position: absolute;
-    font-size: 40px;
-    color: lightgreen;
-    display: none;
-}
-
 .list15 {
     background: white;
     border: none;

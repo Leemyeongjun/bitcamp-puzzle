@@ -1,6 +1,5 @@
 let puzzle = document.querySelector(".puzzle-container");
 let startButton = document.querySelector(".startBtn");
-let complete = document.querySelector(".complete-text");
 let puzzleList = puzzle.children;
 
 let cnt = 16;
@@ -15,7 +14,6 @@ let lll = new Array(cnt).fill().forEach((n, i) => {
     j++;
 
     li.innerText = j;
-    console.log(li);
 });
 
 
@@ -50,7 +48,6 @@ puzzle.addEventListener("click", (e) => {
             break;
         }
     }
-
     checkIndex();
 });
 
